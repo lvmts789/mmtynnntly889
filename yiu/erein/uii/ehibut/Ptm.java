@@ -41,13 +41,6 @@ public class Ptm extends HttpServlet {
         writer.println("<hr/>");
         writer.println("<div class='box'><strong>Aktuell:</strong> " + vval_mk77 + "</div>");
 
-        writer.println("<h2>Empfehlungen</h2>");
-        writer.println("<ul>");
-        writer.println("<li>Der Zauberberg</li>");
-        writer.println("<li>Die Verwandlung</li>");
-        writer.println("<li>Der Prozess</li>");
-        writer.println("</ul>");
-
         writer.println("<h2>Mini-Tabelle</h2>");
         writer.println("<table>");
         writer.println("<tr><th>Autor</th><th>Beispiel</th></tr>");
