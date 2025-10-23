@@ -29,14 +29,7 @@ public class Ptm extends HttpServlet {
         writer.println("table{border-collapse:collapse;margin-top:.5rem}");
         writer.println("td,th{border:1px solid #ddd;padding:.4rem .6rem}");
         writer.println("</style>");
-        writer.println("</head><body>");
-        writer.println("<h1>Buch Seite 2</h1>");
         writer.println("<p>Kleine Demo-Seite mit ein bisschen Inhalt. Trage unten etwas ein und sende.</p>");
-
-        writer.println("<form method='get' action='book2'>");
-        writer.println("Eingabe: <input type='text' name='qz9'/> ");
-        writer.println("<button type='submit'>Anzeigen</button>");
-        writer.println("</form>");
 
         writer.println("<hr/>");
         writer.println("<div class='box'><strong>Aktuell:</strong> " + vval_mk77 + "</div>");
